@@ -1,24 +1,10 @@
-const CACHE = "little-luck-web-test-v2";
+const CACHE = "little-luck-web-test-v3";
 const CORE = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
+  "./i18n.js",
   "./assets/app-icon.svg",
-  "./assets/home-window-cat.png",
-  "./assets/home-window-cat.webp",
-  "./assets/cat-celebrate.webp",
-  "./assets/cat-encourage.webp",
-  "./assets/cat-happy.webp",
-  "./assets/cat-hug.webp",
-  "./assets/cat-sleep.webp",
-  "./assets/cat-surprise.webp",
-  "./assets/lucky-cat-1.png",
-  "./assets/lucky-cat-2.png",
-  "./assets/lucky-cat-3.png",
-  "./assets/lucky-cat-4.png",
-  "./assets/lucky-cat-5.png",
-  "./assets/lucky-cat-6.png",
-  "./assets/lucky-cat-7.png"
 ];
 
 self.addEventListener("install", event => {
